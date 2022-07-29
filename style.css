@@ -1,0 +1,265 @@
+h2 {
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', bold;
+}
+    
+   
+
+ header{
+    background-color: white;
+    padding: 5px 0;
+    border-bottom:1px solid #16507b ;
+    border-bottom: 1px solid rgb(200,200,200);
+
+
+ }
+
+ .center{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .logo{
+    color: #16507b;
+    position:0 ;
+
+
+ }
+
+ .logo h2{
+    font-weight:  normal;
+    font-size: 22px;
+ }
+
+ .menu{
+
+   width: 80%;
+   text-align: right;
+
+ }
+ .menu a {
+    color: #16507b;
+    font-size: 14px;
+    text-decoration: none;
+    word-spacing: 0px;
+    margin-right: 20px;
+    transition: 0.4s;
+   
+ }
+
+ .menu a:hover{
+   
+    background-color: #007bff;
+ }
+
+ .menu .btn-menu{
+    background-color: #16507b;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 5px;
+   
+    
+ }
+
+ .menu .btn-menu:hover{
+    background-color: #007bff;
+    color: #ffffff;
+    
+ }
+
+ /*
+ Section Maim
+ */
+
+ section.main{
+   background-image: url('img/hero-bg.jpg');
+   padding: 70px 0;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+
+ }
+
+ .main_cta{
+   width:100%;
+   margin: 60px 0;
+   text-align: center;
+
+
+}
+
+.main_cta h2{
+   color: #16507b;
+   font-size: 40px;
+
+}
+
+.main_cta p{
+   color: gray;
+   font-size: 19px;
+   margin: 10px 0;
+
+}
+
+.main_cta button{
+   background-color: #16507b;
+   display: inline-block;
+   padding: 8px 30px;
+   color: white;
+   border-radius: 6px;
+   font-size: 16px;
+   border: 0px;
+   cursor: pointer;
+}
+
+
+
+.main_cta button:hover{
+   background-color: #007bff;
+   color: white;
+   border-radius: 5px;
+   font-size: 16px;
+   border: 1px;
+   cursor: pointer;
+   transition: 0.4s;
+}
+
+
+.diferenciais{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+
+
+.diferenciais-single{
+   
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);/*FUNDO TRANSPARENTE USAR RGB*/
+    width: 23%;
+    margin-left: 20px;
+    padding: 50px 0;
+}
+
+.diferenciais-single:hover{
+    padding: 70px;
+    background-color: rgba(77, 75, 75, 0.5);/*FUNDO TRANSPARENTE USAR RGB*/
+    cursor: pointer;
+
+}
+
+.diferenciais-single i{
+    color: #124265;
+    margin: 3%;
+   
+}
+
+
+.diferenciais-single h2{
+    color: #124265;
+    font-size: 23px;
+    margin: 3% 3%;
+
+}
+
+.diferenciais-single p{
+    color: #124265;
+    font-size: 17px;
+    margin: 3% 3%;
+
+}
+
+section.sobre{
+   padding: 80px 0;
+   
+  
+}
+
+.chamada-sobre {
+   width: 100%;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.chamada-sobre h2{
+   color: #124265;
+  
+}
+
+.chamada-sobre p{
+   font-size: 14px;
+   color: grey;
+   margin: 10px 0;
+}
+
+.conteudo-sobre{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.conteudo-sobre p{
+   width: 48%;
+   margin-right: 2%;
+   color: 444;
+}
+
+.conteudo-sobre spam{
+   display: inline-block;
+   width: 100%;
+   margin-top: 10px;
+
+}
+.conteudo-sobre i{
+   color: 007bff;
+}
+
+section.conquistas{
+   background-color: #f8fbfe;
+   padding: 20px 0;
+
+}
+
+.conquistas-sigle{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 20%;
+    margin-right: 3%;
+    text-align: center;
+    color: #124265;
+}
+
+.conquistas-sigle h2{
+  
+    font-size: 30px;
+
+}
+
+
+
+@media screen and (max-width:768px) {
+   .diferenciais-single{
+      width: 100%;
+      margin-bottom: 10px ;
+   }
+   .conteudo-sobre p{
+      width: 100%;
+      margin: 20px 20px
+      
+   }
+
+   .conquistas-sigle{
+    width: 100%;
+    margin: 20px 20px
+
+   }
+
+  
+}
